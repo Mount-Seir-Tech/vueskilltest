@@ -28,7 +28,7 @@ let movie = {
 
 onMounted(async () => {
   console.log("on mount");
-  await auth.signIn("assaad2", "Pass_Word");
+  await auth.signIn('testuser', 't3stp4ss1')
   await movieStore.init();
   await movieStore.getMovieByID(MovieID.value);
 

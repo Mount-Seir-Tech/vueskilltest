@@ -9,7 +9,7 @@ const movieStore = useMovieStore();
 
 onMounted(async () => {
   console.log("on mount");
-  await auth.signIn("assaad2", "Pass_Word");
+  await auth.signIn('testuser', 't3stp4ss1')
 });
 
 function addMovie(event: any) {

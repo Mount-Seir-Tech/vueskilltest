@@ -12,7 +12,7 @@ const router = useRouter();
 
 onMounted(async () => {
   console.log("on mount");
-  await auth.signIn("assaad2", "Pass_Word");
+  await auth.signIn('testuser', 't3stp4ss1')
   await moviesStore.init();
   console.log(moviesStore.movies);
 });
