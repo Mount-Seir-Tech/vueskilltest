@@ -7,15 +7,14 @@
     </div>
   </nav>
 
-  </template>
-  
-  <script setup lang="ts">
-  import {useAuthStore} from "@/stores/auth"
+</template>
 
-  async function signIn(){
-    const auth = useAuthStore()
-    await auth.signIn('testuser', 't3stp4ss1')
-  }
+<script setup lang="ts">
+import { useAuthStore } from "@/stores/auth"
 
-  </script>
-  
+async function signIn() {
+  const auth = useAuthStore()
+  await auth.signIn('assaad2', 'Pass_Word')
+}
+
+</script>
