@@ -14,7 +14,7 @@ import { useAuthStore } from "@/stores/auth"
 
 async function signIn() {
   const auth = useAuthStore()
-  await auth.signIn('assaad2', 'Pass_Word')
+  await auth.signIn('testuser', 't3stp4ss1')
 }
 
 </script>
