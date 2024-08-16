@@ -1,6 +1,6 @@
 # vueskilltest
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a small Vue App for the purpose of testing vue skill
 
 ## Recommended IDE Setup
 
@@ -66,3 +66,20 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+
+## Tasks to complete
+
+### 1. Make a component for the Movie Items
+Create a component that displays the Title, Year, and Creator of the Movie.  This should be reused for every movie in the list.
+
+### 2. Movie Type
+Create a Type for the movie.  This should match up with the data returning from the API.
+
+### 3. Create a details View for a movie item.
+When a user clicks on a movie item a new window should open up will all the movie details.
+
+### 4. Delete Movie
+I want to be able to Delete a movie from the detail view and route back to the movie list.
+
+### 5. Edit Movie
+As user I want to click on a button in the movie details that enables me to edit the movie information.
